@@ -6,7 +6,7 @@ import postcss from "rollup-plugin-postcss";
 import packageJson from "./package.json" assert { type: "json" };
 import terser from "@rollup/plugin-terser";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
-
+import cleanup from 'rollup-plugin-cleanup';
 export default [
   {
     input: "src/index.ts",
@@ -29,6 +29,7 @@ export default [
       postcss(),
       terser(),
       peerDepsExternal(),
+      cleanup()  
     ],
   },
   {
