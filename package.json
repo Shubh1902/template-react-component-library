@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Shubh1902"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -19,6 +19,7 @@
     "react": "^18.3.1",
     "rollup": "^4.17.2",
     "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5"
   },
