@@ -1,9 +1,6 @@
 {
-  "name": "@Shubh1902/template-react-component-library",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Shubh1902"
-  },
-  "version": "1.1.4",
+  "name": "@shubhanshub/test-blade",
+  "version": "1.0.0",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "storybook dev -p 6006",
