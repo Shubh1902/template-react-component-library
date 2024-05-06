@@ -1,4 +1,4 @@
-button {
+input {
   border-radius: 5px;
 }
 .size-small {
@@ -14,11 +14,4 @@ button {
 .size-large {
   height: 40px;
   width: 125px;
-}
-
-.button-primary {
-  background: pink;
-}
-.button-secondary {
-  background: skyblue;
 }
