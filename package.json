@@ -1,6 +1,6 @@
 {
-  "name": "@shubhanshub/test-blade",
-  "version": "1.0.0",
+  "name": "@shubh1902/test-blade",
+  "version": "1.1.0",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "storybook dev -p 6006",
