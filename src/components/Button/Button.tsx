@@ -8,7 +8,7 @@ interface Props {
 const Button = ({ size = "medium", variant = "primary", ...props }: Props) => {
   return (
     <button className={[`size-${size}`, `button-${variant}`].join(" ")}>
-      {props.label}
+      --{props.label}
     </button>
   );
 };
