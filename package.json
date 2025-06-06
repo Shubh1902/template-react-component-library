@@ -1,5 +1,5 @@
 {
-  "name": "@shubh1902/test-blade",
+  "name": "@shubh1902/template-react-component-library",
   "version": "1.1.0",
   "scripts": {
     "rollup": "rollup -c",
